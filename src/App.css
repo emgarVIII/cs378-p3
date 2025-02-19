@@ -1,0 +1,77 @@
+.container {
+  max-width: 91%; 
+  margin: 0 auto; 
+  padding: 0 15px; 
+}
+
+.cf {
+  color: orange;
+  font-family: 'Apple Chancery', cursive;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.ucf {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  color: grey;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.logo {
+  width: 50%;
+  height: auto;
+  margin: 3% auto 8%;
+  display: block;
+}
+
+.description {
+  color: #3b3b3b !important; 
+  font-weight: 340;
+  font-size: 1rem;
+}
+
+.item_pictures {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+p {
+  font-weight: normal;
+  font-size: 1rem;
+  color: darkgray !important;
+}
+
+p.text-muted {
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+}
+
+.fixed-bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
